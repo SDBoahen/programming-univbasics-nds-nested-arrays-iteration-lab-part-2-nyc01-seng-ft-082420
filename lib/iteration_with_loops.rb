@@ -40,7 +40,7 @@ def
                   
                     while element_index > 0 do
                       
-                      puts src[row_index][element_index] #  ####  -T-  ####
+                                                              puts "#{src[row_index][element_index]}" #  ####  -T-  ####
                     
                           #if (src[row_index][element_index] < local_min)
                           if (local_min > src[row_index][element_index])
