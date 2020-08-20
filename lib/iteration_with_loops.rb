@@ -101,8 +101,8 @@ def
 
 
     p smallest_from_each
-    # puts puts puts puts 
-    # return smallest_from_each
+    puts puts puts puts 
+    return smallest_from_each
       
       
   end
