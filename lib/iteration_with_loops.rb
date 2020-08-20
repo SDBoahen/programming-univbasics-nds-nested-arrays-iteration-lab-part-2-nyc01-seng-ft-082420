@@ -100,9 +100,9 @@ def
     #end#                   ***
 
 
-    p smallest_from_each # => ["Sporty", "Fajita Mix", "Rosemary"]
+    p smallest_from_each
     puts puts puts puts 
-    smallest_from_each
+    return smallest_from_each
       
       
   end
