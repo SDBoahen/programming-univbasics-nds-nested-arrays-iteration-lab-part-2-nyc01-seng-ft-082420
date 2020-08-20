@@ -23,8 +23,6 @@ def
         while element_index < (src[row_index].count - 1) do
 
               
-              if  src[row_index].count > 1
-
                   # if :: the first element in that (Row)                  
                   if element_index == 0
                   #       L> that IS the (smallest) until proven otherwise; 
@@ -40,7 +38,7 @@ def
                   # // Which it Should Be IF Here . . . // 
                   # L> Keep Comparing 
                   
-                    #while element_index > 0 do
+                    while element_index > 0 do
                     
                           #if (src[row_index][element_index] < local_min)
                           if (local_min > src[row_index][element_index])
@@ -53,11 +51,11 @@ def
                           else element_index += 1  end 
                               # "> NEXT! >"   
                                
-                    #end
+                    end
                     
                   end
                   
-              end 
+              #xx~  end 
                     
               
         end
