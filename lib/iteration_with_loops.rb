@@ -33,7 +33,10 @@ def
                   element_index += 1  end 
                   
                                                                 puts "
+                                                                
 (element_index):: (|| #{element_index} ||)
+
+(local_min):: (|| #{local_min} ||)
 " #  ####  -T-  ####
                   
 
